@@ -1,0 +1,8 @@
+.about .banner{
+    margin-bottom: 30px;
+}
+@media only screen and (max-width: 600px) {
+    .about .banner {
+        height: 223px;
+    }
+}

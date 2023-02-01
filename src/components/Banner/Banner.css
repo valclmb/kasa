@@ -1,0 +1,44 @@
+/* banner */
+.banner {
+    height: 225px;
+    width: 100%;
+    position: relative;
+    border-radius: 25px;
+    overflow: hidden;
+}
+/* grey filter */
+.banner::after {
+    content : "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(50, 50, 50, 0.45);
+}
+.banner  img {
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+
+.banner h2 {
+    position: absolute;
+    color: white;
+    z-index: 2;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 48px;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        height: 111px;
+        border-radius: 10px
+    }
+    .banner h2 {
+        font-size: 24px;
+        left: 20px;
+        transform: translate(0, -50%);
+    }
+}

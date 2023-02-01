@@ -1,0 +1,44 @@
+.carousel {
+    position: relative;
+    height: 415px;
+    width: 100%;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.carousel__image{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+.carousel__arrows {
+    position: absolute;
+    height: 100%;
+    width: 50px;
+    top: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel__arrows:hover {
+    background-color: rgba(255, 255, 255, 0.19);
+}
+.carousel__arrows.right {
+    right: 0;
+}
+.carousel__arrows.left  img {
+    transform: rotate(90deg);
+}
+.carousel__arrows.right img {
+    transform: rotate(-90deg);
+}
+@media only screen and (max-width: 600px) {
+    .carousel {
+        height: 255px;
+    }
+    .carousel__arrows img{
+        width: 20px;
+        height: fit-content;
+    }
+
+}

@@ -1,0 +1,17 @@
+.App {
+    font-family: 'Montserrat', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.App__container {
+
+    padding: 40px 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .App__container {
+        padding: 20px;
+    }
+}

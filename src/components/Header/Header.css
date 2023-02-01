@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+/* Logo */
+.header h1 {
+    margin : 0;
+
+}
+.header h1 img {
+    width: 200px;
+    height: fit-content;
+}
+/* nav */
+.header nav a{
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 60px;
+    color:  #FF6060
+}
+.header nav a.location--active {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        margin-bottom: 20px;
+    }
+    /*logo */
+    .header h1 img {
+        width: 150px;
+    }
+
+    .header nav a {
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-left: 10px;
+    }
+}

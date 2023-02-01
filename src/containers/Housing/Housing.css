@@ -1,0 +1,33 @@
+.housing {
+    color: var(--color-primary);
+    font-size: 18px;
+}
+.housing__accordions {
+    margin-top: 30px;
+    display: flex;
+    gap : 100px
+}
+.housing__accordions .accordion {
+    font-size: 18px;
+    width: 100%;
+}
+.housing__accordions .accordion h2 {
+    font-size: 18px;
+}
+.housing__accordions ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+@media only screen and (max-width: 600px) {
+    .housing__accordions {
+        margin-top: 15px;
+        display: block;
+    }
+    .housing__accordions .accordion h2 {
+        font-size: 13px;
+    }
+    .housing__accordions .accordion {
+        font-size: 12px;
+    }
+}

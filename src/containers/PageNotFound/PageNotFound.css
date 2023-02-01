@@ -1,0 +1,31 @@
+.page-not-found {
+    color: var(--color-primary);
+    text-align: center;
+}
+.page-not-found__404 {
+    font-size: 288px;
+    font-weight: bold;
+}
+.page-not-found__text {
+    font-size: 36px;
+    margin-bottom: 150px;
+}
+.page-not-found a {
+    text-decoration: underline;
+    color: #FF6060;
+    font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+    .page-not-found{
+        padding: 200px 30px;
+    }
+    .page-not-found__404 {
+        font-size: 96px;
+    }
+    .page-not-found__text {
+        font-size: 18px;
+    }
+    .page-not-found a{
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,11 @@
+.rating__star {
+    width: 30px;
+    height: fit-content;
+    margin: 10px;
+}
+@media only screen and (max-width: 600px) {
+    .rating__star {
+        width: 15px;
+        margin: 5px;
+    }
+}
