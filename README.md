@@ -1,4 +1,6 @@
-# Développez une application Web avec React et React Router
+# Kasa - Développez une application Web avec React et React Router
+
+![Kasa](./src/assets/logo.png)
 
 Onzième projet de la formation développeur d'application JavaScript React d'OpenClassrooms
 
